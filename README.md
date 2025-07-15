@@ -30,6 +30,11 @@ The dataset used is the **Breast Cancer Histopathology Images** dataset availabl
 - Achieved **87% accuracy** on IDC classification.
 - Demonstrates potential for early and efficient IDC detection.
 
+## Grad-CAM Visualization
+
+To interpret the CNN’s decisions, Grad-CAM (Gradient-weighted Class Activation Mapping) is used to generate heatmaps that highlight the regions in histopathology images most influential for the model’s classification. This helps improve transparency and trust in the model’s predictions.
+
+
 ---
 
 Feel free to ask if you want me to help you add sections like installation, usage commands, or how to run the training and evaluation scripts!
